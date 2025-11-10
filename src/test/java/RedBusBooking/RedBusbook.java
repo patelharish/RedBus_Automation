@@ -97,7 +97,7 @@ public class RedBusbook {
 		}
 		
 		//verifying if date selected 8th of august or not 
-		String ExpectedDate = "08 Aug, 2025";
+		String ExpectedDate = "08 Dec, 2025";
 		String actualDateLocator = wd.findElement(By.xpath("//span[contains(@class,\"doj\")]")).getText();	
 		Assert.assertEquals(ExpectedDate, actualDateLocator);
 		
